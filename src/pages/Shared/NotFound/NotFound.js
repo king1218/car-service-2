@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import PageTitle from '../../PageTitle/PageTitle';
 
 const NotFound = () => {
     return (
         <div>
+          <PageTitle title="Not Found"></PageTitle>
 <div
   className="
     flex

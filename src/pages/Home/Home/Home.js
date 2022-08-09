@@ -1,19 +1,24 @@
 import React from 'react';
+import PageTitle from '../../PageTitle/PageTitle';
+
 import Footer from '../../Shared/Footer/Footer';
-import Nav from '../../Shared/Nav/Nav';
+
 import Banner from '../Banner/Banner';
 import Exparts from '../Exparts/Exparts';
 import Services from '../Services/Services';
 
+
+
 const Home = () => {
     return (
-        <div>
-            
-            <Banner></Banner>
+       
+        <>
+      <PageTitle title="Home"></PageTitle>
+        <Banner></Banner>
         <Services></Services>
         <Exparts></Exparts>
         <Footer></Footer>
-        </div>
+        </>
     );
 };
 

@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
+import PageTitle from '../../PageTitle/PageTitle';
+
 import Service from '../Service/Service';
 
 
@@ -12,6 +14,7 @@ const Services = () => {
     },[])
     return (
         <div id='services'>
+            <PageTitle title="Services"></PageTitle>
             <h1  className='text-center text-3xl text-blue-500 my-10 font-bold '>Our Services</h1>
             <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 '>
             {
